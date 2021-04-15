@@ -30,3 +30,23 @@ footer p {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         
     }
+
+    .character {
+        width: 25%;
+        height: 3%;
+        border: ;
+        margin: 3%;
+        text-align: center;
+        border-radius: 5px;
+        border: 2px red solid;
+    }
+
+    .character img {
+        width: 80%;
+        border-radius: 3%;
+    }
+
+    .infocharacter {
+        text-align: center;
+        padding: 3%;
+    }
