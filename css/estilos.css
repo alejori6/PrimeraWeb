@@ -34,11 +34,10 @@ footer p {
     .character {
         width: 25%;
         height: 3%;
-        border: ;
+        border: 2px red solid;
         margin: 3%;
         text-align: center;
         border-radius: 5px;
-        border: 2px red solid;
     }
 
     .character img {

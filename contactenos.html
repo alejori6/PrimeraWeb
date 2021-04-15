@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link href="./css/menu.css" rel="stylesheet" type="text/css">
+    <link href="./css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li class="logo">
+                <a href="#">
+                    <img src="./img/logo.png">
+                </a>
+            </li>
+            <li> <a href="./index.html">Inicio</a> </li>
+            <li> <a href="./contactenos.html">Contacto</a> </li>
+        </ul>
+
+    </nav>
+
+    <div>
+        <h1> Contacto con Rick and Morty </h1>
+
+        <div>
+            <form>
+                <div>
+                    <div>
+                        <div>
+                            <label> Tipo de Mensajes</label>
+                        </div>
+                        <select id="tipo" name="tipo" required>
+                            <option value=""> Seleccione un Opcion </option>
+                            <option value="Cotizacion"> Cotización</option>
+                            <option value="saludo"> Saludo </option>
+                            <option value="queja"> Queja </option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> Nombres </label>
+                        </div>
+                        <input type="text" id="name" name="name" placeholder="Ingrese sus Nombres" required>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> Email </label>
+                        </div>
+                        <input type="email" id="email" name="email" placeholder="Ingrese sus Correo" required>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> Edad </label>
+                        </div>
+                        <input type="number" id="edad" name="edad" placeholder="Ingrese sus Edad" required>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> Telefono </label>
+                        </div>
+                        <input type="text" id="telefono" name="telefono" placeholder="Ingrese sus Telefono" required>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> Comentario </label>
+                        </div>
+                        <textarea name="comment" id="comment" cols="40" rows="4"  placeholder="Escriba su comentario aquí" required></textarea>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label> ¿Que estudias? </label>
+                        </div>
+                        <input type="checkbox" id="chk1" name="chk1" value="html">HTML
+                        <input type="checkbox" id="chk2" name="chk2" value="css">CSS
+                        <input type="checkbox" id="chk2" name="chk2" value="php">PHP
+                    </div>
+                    <div>
+                        <label> ¿Que te gusta hacer? </label>
+                    </div>
+                    <input type="radio" id="radio1" name="radio" value="jugar">JUGAR
+                    <input type="radio" id="radio2" name="radio" value="vertv">VER TV
+                    <input type="radio" id="radio3" name="radio" value="programar">PROGRAMAR
+                </div>
+
+                    <div>
+                        <button type="submit" onclick="validardatos()"> Enviar Datos </button>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+    <footer>
+            
+        <p>Creado por Antonio Alejandro Rivera</p>
+
+    </footer>
+
+
+    <script src="./js/script.js"> </script>
+</body>
+</html>
